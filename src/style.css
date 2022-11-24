@@ -1,8 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
 
+/* GLOBAL STYLE */
+
 body {
   background: #f6f7fb;
 }
+
+.input-type-primary-tiketsaya {
+  background: #fafafa;
+  border: 1px solid #ededed;
+  color: #21272c;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.input-type-primary-tiketsaya:focus {
+  background: #d0d7ff;
+  border: 1px solid #203dd1;
+  color: #203dd1;
+}
+
+.title-input-type-primary-tiketsaya {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  color: #21272c;
+}
+
+.btn-primary-tiketsaya {
+  background: #203dd1;
+  border: 0;
+  height: 45px;
+  width: 140px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+/* GLOBAL STYLE */
 
 .header-sign-in {
   padding: 50px 0;
@@ -17,4 +54,28 @@ body {
 .form-sign-in {
   height: 500px;
   background: #ffffff;
+}
+
+.form-sign-in .icon-header {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.form-sign-in .title-form {
+  font-size: 30px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #21272c;
+  margin: 0;
+}
+.form-sign-in .subtitle-form {
+  font-size: 13px;
+  font-family: "Montserrat";
+  font-weight: 300;
+  color: #b4b4b4;
+}
+
+.form-sign-in .content-sign-in {
+  margin-top: 30px;
 }
