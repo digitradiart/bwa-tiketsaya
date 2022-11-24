@@ -7,3 +7,14 @@ body {
 .header-sign-in {
   padding: 50px 0;
 }
+
+.header-sign-in .logo-header {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.form-sign-in {
+  height: 500px;
+  background: #ffffff;
+}
