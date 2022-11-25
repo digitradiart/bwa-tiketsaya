@@ -1,21 +1,69 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
 
 /* GLOBAL STYLE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 
 body {
   background: #f6f7fb;
 }
 
+.side-left .emblemapp {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 70px;
+  overflow: hidden;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.side-left .emblemapp img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 .side-left .shortcut {
   width: 70px;
-  height: 100vh;
-  background: rgb(32, 61, 209);
+  min-height: 100vh;
+  background: rgb(37, 149, 245);
   background: linear-gradient(
-    180deg,
-    rgba(32, 61, 209, 1) 60%,
-    rgba(237, 237, 255, 1) 100%
+    0deg,
+    rgba(37, 149, 245, 1) 0%,
+    rgba(32, 61, 209, 1) 100%
   );
 }
+
+.side-left .menus {
+  width: 70px;
+  overflow: hidden;
+  margin-top: 150px;
+}
+
+.side-left .menus .item-menu {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.side-left .menus .item-menu:last-child {
+  margin-top: 150px;
+}
+
+.side-left .menus .item-menu .icon-item-menu {
+  color: #ffffff;
+  font-size: 20px;
+  padding-top: 5px;
+  text-align: center;
+  vertical-align: auto;
+}
+
 .input-type-primary-tiketsaya {
   background: #fafafa;
   border: 1px solid #ededed;
@@ -75,12 +123,12 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
   border-radius: 8px;
-  background: rgb(229, 229, 255);
+  background: rgb(255, 255, 255);
   background: linear-gradient(
-    333deg,
-    rgba(229, 229, 255, 0.49139280125195617) 12%,
-    rgba(237, 237, 255, 1) 36%,
-    rgba(255, 255, 255, 1) 63%
+    0deg,
+    rgba(255, 255, 255, 1) 96%,
+    rgba(242, 251, 255, 1) 100%,
+    rgba(236, 250, 255, 1) 100%
   );
 }
 
