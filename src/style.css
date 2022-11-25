@@ -6,6 +6,16 @@ body {
   background: #f6f7fb;
 }
 
+.side-left .shortcut {
+  width: 70px;
+  height: 100vh;
+  background: rgb(32, 61, 209);
+  background: linear-gradient(
+    180deg,
+    rgba(32, 61, 209, 1) 60%,
+    rgba(237, 237, 255, 1) 100%
+  );
+}
 .input-type-primary-tiketsaya {
   background: #fafafa;
   border: 1px solid #ededed;
