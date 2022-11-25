@@ -37,6 +37,12 @@ body {
   font-size: 16px;
   font-weight: 500;
   color: #ffffff;
+  margin-top: 30px;
+}
+
+.btn-primary-tiketsaya:hover {
+  background: #0e1e6e;
+  border: 0;
 }
 
 /* GLOBAL STYLE */
@@ -52,7 +58,9 @@ body {
 }
 
 .form-sign-in {
-  height: 500px;
+  overflow: hidden; /* menggantikan height agar auto mengikuti tinggi konten*/
+  padding-top: 50px;
+  padding-bottom: 50px;
   background: #ffffff;
 }
 
