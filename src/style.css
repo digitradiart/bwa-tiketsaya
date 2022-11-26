@@ -51,18 +51,22 @@ body {
 
 .side-left .menus .inactive {
   background: none !important;
+  transition: all 1s;
 }
 
 .side-left .menus .inactive:hover {
   background-color: rgba(0, 0, 0, 0.1) !important;
+  transition: all 1s;
 }
 
 .side-left .menus .inactive .icon-item-menu {
   opacity: 0.2 !important;
+  transition: all 1s;
 }
 
 .side-left .menus .inactive .icon-item-menu:hover {
   opacity: 1 !important;
+  transition: all 1s;
 }
 
 .side-left .menus .item-menu {
