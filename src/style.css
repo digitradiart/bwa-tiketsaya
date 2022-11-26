@@ -9,7 +9,13 @@
 }
 
 body {
-  background: #f6f7fb;
+  /* background: #f6f7fb; */
+  background: rgb(206, 219, 255);
+  background: linear-gradient(
+    50deg,
+    rgba(206, 219, 255, 1) 12%,
+    rgba(240, 244, 255, 1) 36%
+  );
 }
 
 .side-left .emblemapp {
@@ -41,6 +47,22 @@ body {
   width: 70px;
   overflow: hidden;
   margin-top: 150px;
+}
+
+.side-left .menus .inactive {
+  background: none !important;
+}
+
+.side-left .menus .inactive:hover {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.side-left .menus .inactive .icon-item-menu {
+  opacity: 0.2 !important;
+}
+
+.side-left .menus .inactive .icon-item-menu:hover {
+  opacity: 1 !important;
 }
 
 .side-left .menus .item-menu {
@@ -123,13 +145,7 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
   border-radius: 8px;
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 1) 96%,
-    rgba(242, 251, 255, 1) 100%,
-    rgba(236, 250, 255, 1) 100%
-  );
+  background: #ffffff;
 }
 
 .form-sign-in .icon-header {
