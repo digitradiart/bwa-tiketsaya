@@ -6,6 +6,13 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: "Montserrat";
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 body {
@@ -19,6 +26,7 @@ body {
 }
 
 .side-left {
+  height: 100vh;
   width: 310px;
   overflow: hidden;
   float: left;
@@ -40,7 +48,7 @@ body {
 
 .side-left .shortcut {
   width: 70px;
-  min-height: 100vh;
+  height: 100vh;
   background: rgb(37, 149, 245);
   background: linear-gradient(
     0deg,
@@ -53,7 +61,7 @@ body {
 .side-left .menus {
   width: 70px;
   overflow: hidden;
-  margin-top: 150px;
+  margin-top: 200px;
 }
 
 .side-left .menus .inactive {
@@ -82,12 +90,12 @@ body {
   background-color: rgba(0, 0, 0, 0.1);
   margin: auto;
   border-radius: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 23px;
 }
 
-.side-left .menus .item-menu:last-child {
-  margin-top: 150px;
-}
+/* .side-left .menus .item-menu:last-child {
+  margin-top: 100px;
+} */
 
 .side-left .menus .item-menu .icon-item-menu {
   color: #ffffff;
@@ -97,18 +105,10 @@ body {
   vertical-align: auto;
 }
 
-.side-left .admin-profile {
-  background-color: #ffffff;
-  float: left;
-  min-height: 100vh;
-  width: 240px;
-}
-
 .input-type-primary-tiketsaya {
   background: #fafafa;
   border: 1px solid #ededed;
   color: #21272c;
-  font-family: "Montserrat";
   font-size: 16px;
   font-weight: 400;
 }
@@ -120,7 +120,6 @@ body {
 }
 
 .title-input-type-primary-tiketsaya {
-  font-family: "Montserrat";
   font-size: 16px;
   font-weight: 400;
   color: #21272c;
@@ -131,7 +130,6 @@ body {
   border: 0;
   height: 45px;
   width: 140px;
-  font-family: "Montserrat";
   font-size: 16px;
   font-weight: 500;
   color: #ffffff;
@@ -148,6 +146,7 @@ body {
 
 /* GLOBAL STYLE */
 
+/* SIGN-IN PAGE */
 .header-sign-in {
   padding: 50px 0;
 }
@@ -174,18 +173,86 @@ body {
 
 .form-sign-in .title-form {
   font-size: 30px;
-  font-family: "Montserrat";
   font-weight: 500;
   color: #21272c;
   margin: 0;
 }
 .form-sign-in .subtitle-form {
   font-size: 13px;
-  font-family: "Montserrat";
   font-weight: 300;
   color: #b4b4b4;
 }
 
 .form-sign-in .content-sign-in {
   margin-top: 30px;
+}
+
+/* ADMIN PROFILE */
+
+.side-left .admin-profile {
+  background-color: #ffffff;
+  float: left;
+  min-height: 100vh;
+  width: 240px;
+}
+
+.side-left .admin-profile .admin-picture {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 1px solid #203dd1;
+  margin: auto;
+  margin-top: 50px;
+  background: #e6f8f0;
+}
+.side-left .admin-profile .admin-picture img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 9px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.side-left .admin-profile .admin-name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #21272c;
+  margin-top: 16px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.side-left .admin-profile .admin-level {
+  font-size: 14px;
+  font-weight: 300;
+  color: #b4b4b4;
+  text-align: center;
+}
+
+.side-left .admin-profile .admin-menus {
+  margin-top: 50px;
+  display: block;
+}
+
+.side-left .admin-profile .admin-menus li {
+  padding-bottom: 40px;
+  margin-left: -20px;
+}
+
+.admin-menus a {
+  color: #b4b4b4;
+}
+/* .active-link a {
+  color: #21272c;
+} */
+
+.admin-menus a:hover {
+  color: #203dd1;
+}
+
+.admin-menus li a:active {
+  color: #21272c;
 }

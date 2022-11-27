@@ -16,8 +16,8 @@
     <title>Dashboard Tiketsaya</title>
   </head>
   <body>
-    <div class="side-left">
-      <div class="shortcut">
+    <div class="side-left" onmouseout="hideAdminProfile()">
+      <div class="shortcut" onmouseover="showAdminProfile()">
         <div class="emblemapp">
           <img height="29" src="images/emblemapp.png" alt="emblem app" />
         </div>
@@ -70,7 +70,21 @@
         </div>
       </div>
 
-      <div class="admin-profile">ini admin-profile</div>
+      <div class="admin-profile" id="sl_ap">
+        <div class="admin-picture">
+          <img src="images/admin_picture.png" alt="admin-picture" />
+        </div>
+        <p class="admin-name">John Doe</p>
+        <p class="admin-level">Super Admin</p>
+        <ul class="admin-menus">
+          <li class="active-link"><a href="dashboard.html">My Dashboard</a></li>
+          <li><a href="sales.html">Ticket Sales</a></li>
+          <li><a href="wisata.html">My Trip</a></li>
+          <li><a href="customer.html">Customers</a></li>
+          <li><a href="settings.html">Settings</a></li>
+          <li><a href="#">Log Out</a></li>
+        </ul>
+      </div>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
@@ -85,5 +99,7 @@
     <script>
       AOS.init();
     </script>
+
+    <script src="src/script.js"></script>
   </body>
 </html>
