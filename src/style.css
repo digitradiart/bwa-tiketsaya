@@ -16,13 +16,7 @@ a {
 }
 
 body {
-  /* background: #f6f7fb; */
-  background: rgb(206, 219, 255);
-  background: linear-gradient(
-    50deg,
-    rgba(206, 219, 255, 1) 12%,
-    rgba(240, 244, 255, 1) 36%
-  );
+  background: #f6f7fb;
 }
 
 .side-left {
@@ -162,7 +156,12 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
   border-radius: 8px;
-  background: #ffffff;
+  background: rgb(246, 247, 251);
+  background: linear-gradient(
+    5deg,
+    rgba(246, 247, 251, 1) 0%,
+    rgba(255, 255, 255, 1) 76%
+  );
 }
 
 .form-sign-in .icon-header {
@@ -190,7 +189,12 @@ body {
 /* ADMIN PROFILE */
 
 .side-left .admin-profile {
-  background-color: #ffffff;
+  background: rgb(246, 247, 251);
+  background: linear-gradient(
+    5deg,
+    rgba(246, 247, 251, 1) 0%,
+    rgba(255, 255, 255, 1) 76%
+  );
   float: left;
   min-height: 100vh;
   width: 240px;
@@ -255,4 +259,10 @@ body {
 
 .admin-menus li a:active {
   color: #21272c;
+}
+
+.admin-menus .badge-tiketsaya {
+  background: #d0d7ff;
+  color: #203dd1;
+  margin-left: 10px;
 }
