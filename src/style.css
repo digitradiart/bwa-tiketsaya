@@ -18,6 +18,12 @@ body {
   );
 }
 
+.side-left {
+  width: 310px;
+  overflow: hidden;
+  float: left;
+}
+
 .side-left .emblemapp {
   background-color: rgba(0, 0, 0, 0.2);
   width: 70px;
@@ -41,6 +47,7 @@ body {
     rgba(37, 149, 245, 1) 0%,
     rgba(32, 61, 209, 1) 100%
   );
+  float: left;
 }
 
 .side-left .menus {
@@ -88,6 +95,13 @@ body {
   padding-top: 5px;
   text-align: center;
   vertical-align: auto;
+}
+
+.side-left .admin-profile {
+  background-color: #ffffff;
+  float: left;
+  min-height: 100vh;
+  width: 240px;
 }
 
 .input-type-primary-tiketsaya {
