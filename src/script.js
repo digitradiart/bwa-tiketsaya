@@ -12,5 +12,5 @@ function showAdminProfile() {
 function hideAdminProfile() {
   sl_ap.style.opacity = 0;
   sl_ap.style.visibility = "hidden";
-  sl_ap.style.transition = "all 5s";
+  sl_ap.style.transition = "all 0.8s";
 }
